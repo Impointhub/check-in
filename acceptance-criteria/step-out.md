@@ -156,7 +156,7 @@ SO.F8&#x20;\- Location not found.&#x20;Make sure GPS & internet are turned on,
 * And I on the page `/checkin`
 * and I have granted access permission for the camera
 * and I did not grant GPS access permission
-* and I have the check-in data for the date corresponding to the step-out date.
+* and I have the check-in data for the date corresponding to the step out date.
 * When I click button step out
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
