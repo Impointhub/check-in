@@ -20,7 +20,7 @@
 
 <figure><img src="../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 
-* Then I will see the check-in button before the step-out button.
+* Then I will see the check-in button before the step out button.
 
 <figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
@@ -29,7 +29,7 @@
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
 * And the camera permission status is "Asking"
-* and I have the check-in data for the date corresponding to the step-out date.
+* and I have the check-in data for the date corresponding to the step out date.
 * When I click button step out&#x20;
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
@@ -67,7 +67,7 @@
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
 * And the camera permission status is "Blocked"
-* and I have the check-in data for the date corresponding to the step-out date.
+* and I have the check-in data for the date corresponding to the step out date.
 * When I click button step out&#x20;
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
@@ -81,7 +81,7 @@
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
 * And the location permission status is "asking"
-* and I have the check-in data for the date corresponding to the step-out date.
+* and I have the check-in data for the date corresponding to the step out date.
 * When I click button step out&#x20;
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
@@ -117,7 +117,7 @@
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
 * And the location permission status is "blocked"
-* and I have the check-in data for the date corresponding to the step-out date.
+* and I have the check-in data for the date corresponding to the step out date.
 * When I click button step out&#x20;
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
@@ -131,7 +131,7 @@ SO.F7&#x20;\- Photo not captured.&#x20;Please take a photo&#x20;before contin
 
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
-* and I have the check-in data for the date corresponding to the step-out date.
+* and I have the check-in data for the date corresponding to the step out date.
 * I have granted camera access permission
 * When I click button step out&#x20;
 
@@ -186,7 +186,7 @@ SO.F8&#x20;\- Location not found.&#x20;Make sure GPS & internet are turned on,
 * and I have granted access permission for the camera
 * and I have granted access GPS access permission
 * and my location has been detected
-* and I have the check-in data for the date corresponding to the step-out date.
+* and I have the check-in data for the date corresponding to the step out date.
 * When I click button step out&#x20;
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
@@ -211,4 +211,4 @@ Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang diruba
 
 <figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
-* Then, the 'step-out' duration will reduce working hours.
+* Then, the 'step out' duration will reduce working hours.
