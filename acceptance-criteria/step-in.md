@@ -11,8 +11,8 @@
 
 * Given I already logged in&#x20;
 * and I on the page `/checkin`
-* and I dont have _step-out_ data
-* then I will see the "Step In" button disabled.
+* and I dont have stepout data
+* then I will see the Step In button disabled.
 
 <figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
@@ -20,7 +20,7 @@
 
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
-* And the camera permission status is "Asking"
+* And the camera permission status is Asking
 * and I have the step out data for the date corresponding to the step-in date.
 * When I click button step in&#x20;
 
@@ -40,13 +40,13 @@
 
 *   Then the camera permission status becomes \<Status\_Permission>
 
-    * UI Status\_Permission "Blocked"
+    * UI Status\_Permission Blocked
 
 
 
     <figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
-    * UI Status\_Permission "Asking"
+    * UI Status\_Permission Asking
 
 
 
@@ -56,7 +56,7 @@
 
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
-* And the camera permission status is "Blocked"
+* And the camera permission status is Blocked
 * and I have the step out data for the date corresponding to the step-in date.
 * When I click button step in&#x20;
 
@@ -70,7 +70,7 @@
 
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
-* And the location permission status is "asking"
+* And the location permission status is asking
 * and I have the step out data for the date corresponding to the step-in date.
 * When I click button step in&#x20;
 
@@ -90,11 +90,11 @@
 
 *   Then the location camera permission status becomes \<status\_permission>&#x20;
 
-    * UI Status\_Permission "Blocked"
+    * UI Status\_Permission Blocked
 
     <figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
-    * UI Status\_Permission "Asking"&#x20;
+    * UI Status\_Permission Asking
 
 
 
@@ -104,7 +104,7 @@
 
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
-* And the location permission status is "blocked"
+* And the location permission status is blocked
 * and I have the step out data for the date corresponding to the step-in date.
 * When I click button step in&#x20;
 
@@ -175,7 +175,7 @@ SI.F8&#x20;\- Location not found.&#x20;Make sure GPS & internet&#x20;are turn
 
 <figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
-* And I type "step in dari bank untuk keperluan kantor" into column "notes"
+* And I type step in dari bank untuk keperluan kantor into column notes
 
 <figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 

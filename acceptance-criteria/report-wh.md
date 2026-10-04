@@ -5,7 +5,7 @@
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
 * And I already have attendance data as bellow [(link)](https://docs.google.com/spreadsheets/d/1pK_JPM9IdEwC2TiZIgbJEL8DIimu5M53niTEuM7i7LM/edit?gid=1557068411#gid=1557068411)
-* When I click "wh"
+* When I click wh
 
 <figure><img src="../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
 

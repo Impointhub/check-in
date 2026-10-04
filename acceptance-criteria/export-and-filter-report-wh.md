@@ -4,15 +4,15 @@
 
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
-* When I click "wh"
+* When I click wh
 
 <figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
 
-* And I select filter period from "01/08/2026" and to "08/08/2026"
+* And I select filter period from 01/08/2026 and to 08/08/2026
 
 <figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 
-* And I select filter column "attendance date, day, employee name, time in /clockin, time out / clock out, gross working duration, Step out duration, net workhour"
+* And I select filter column attendance date, day, employee name, time in /clockin, time out / clock out, gross working duration, Step out duration, net workhour"
 
 <figure><img src="../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
 
@@ -32,7 +32,7 @@ Format Excel : [https://docs.google.com/spreadsheets/d/1pK\_JPM9IdEwC2TiZIgbJEL8
 
 * Given I already logged in&#x20;
 * And I on the page [https://checkin.pointhub.net/](https://checkin.pointhub.net/)
-* When I click "wh"
+* When I click wh
 
 <figure><img src="../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
 

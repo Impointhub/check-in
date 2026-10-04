@@ -4,7 +4,7 @@ GD.1&#x20;\- Redirect to external documentation&#x20;
 -------------------------------------------------
 
 * Given I on the page `/checkin`
-* When I click "Guide"&#x20;
+* When I click Guide
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 

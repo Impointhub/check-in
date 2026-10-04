@@ -11,12 +11,12 @@
 
 * Given I already logged In&#x20;
 * And I on the page `/checkin`
-* And the camera permission status is "Asking"
+* And the camera permission status is Asking
 * When I click button checkin&#x20;
 
 <figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
 
-* And the camera permission status is "Asking"
+* And the camera permission status is Asking
 
 <figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
@@ -28,17 +28,15 @@
 | Don't Allow       | Blocked            | Camera access is blocked      |
 | Dismiss           | Asking             | Re-validate permission status |
 
-
-
 *   Then the camera permission status becomes \<Status\_Permission>
 
-    * UI Status\_Permission "Blocked"&#x20;
+    * UI Status\_Permission Blocked
 
 
 
     <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
-    * UI Status\_Permission "Asking"
+    * UI Status\_Permission Asking
 
 
 
@@ -48,12 +46,12 @@
 
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
-* And the camera permission status is "Blocked"
+* And the camera permission status is Blocked
 * When I click button checkin&#x20;
 
 <figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
 
-* Then I can view error message "Camera access is blocked"&#x20;
+* Then I can view error message Camera access is blocked&#x20;
 
 <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
@@ -61,7 +59,7 @@
 
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
-* And the location permission status is "asking"
+* And the location permission status is asking
 * When I click button checkin&#x20;
 
 <figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
@@ -78,16 +76,14 @@
 | Don't Allow       | Blocked            | location access is blocked    |
 | Dismiss           | Asking             | Re-validate permission status |
 
+*   Then the location permission status becomes Status\_Permission
 
-
-*   Then the location permission status becomes "Status\_Permission"
-
-    * UI Status\_ Permission "Blocked"
+    * UI Status\_ Permission Blocked
 
 
 
     <figure><img src="../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
-* UI Status Permission  "asking"&#x20;
+* UI Status Permission  asking
 
 <figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
@@ -95,12 +91,12 @@
 
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
-* And the location permission status is "blocked"
+* And the location permission status is blocked
 * When I click button checkin&#x20;
 
 <figure><img src="../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
 
-* Then I can view notification "Location access is blocked"
+* Then I can view notification Location access is blocked
 
 <figure><img src="../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
 
@@ -162,7 +158,7 @@ CI.F7&#x20;\- Location not found. Make sure GPS & internet are turned on, then 
 
 <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-* And I type "absen berhasil" into column "notes"
+* And I type absen berhasil into column notes
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 

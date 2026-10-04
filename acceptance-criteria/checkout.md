@@ -12,7 +12,7 @@
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
 * And I have checkin data for date 25 jul 2026
-* And the camera permission status is "Asking"
+* And the camera permission status is Asking
 * When I click button checkout&#x20;
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
@@ -31,13 +31,13 @@
 
 *   Then the camera permission status becomes \<status permission>
 
-    * UI Status\_Permission "Blocked"
+    * UI Status\_Permission Blocked
 
 
 
     <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
-    * UI Status\_Permission "Asking"
+    * UI Status\_Permission Asking
 
 
 
@@ -48,7 +48,7 @@ CO.F3&#x20;\- Display a text "camera permission blocked"
 
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
-* And the camera permission status is "Blocked"
+* And the camera permission status is Blocked
 * When I click button checkout&#x20;
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
@@ -61,7 +61,7 @@ CO.F3&#x20;\- Display a text "camera permission blocked"
 
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
-* And the location permission status is "asking"
+* And the location permission status is asking
 * When I click button checkout&#x20;
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
@@ -80,13 +80,13 @@ CO.F3&#x20;\- Display a text "camera permission blocked"
 
 *   Then the location permission status becomes \<Status\_Permission>
 
-    * UI Status\_Permission "Blocked"
+    * UI Status\_Permission Blocked
 
 
 
     <figure><img src="../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
 
-    * UI Status\_Permission "Asking"
+    * UI Status\_Permission Asking
 
 
 
@@ -96,7 +96,7 @@ CO.F3&#x20;\- Display a text "camera permission blocked"
 
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
-* And the location permission status is "blocked"
+* And the location permission status is blocked
 * When I click button checkout&#x20;
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
@@ -168,7 +168,7 @@ CO.F7&#x20;\- Location not found.&#x20;Make sure GPS & internet are turned on,
 
 <figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
-* And I type "absen berhasil" into column "notes"
+* And I type absen berhasil into column notes
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 

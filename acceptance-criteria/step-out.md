@@ -28,7 +28,7 @@
 
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
-* And the camera permission status is "Asking"
+* And the camera permission status is Asking
 * and I have the check-in data for the date corresponding to the step out date.
 * When I click button step out&#x20;
 
@@ -48,7 +48,7 @@
 
 *   Then the camera permission status becomes \<status\_permission>
 
-    * UI Status\_Permission "Blocked"
+    * UI Status\_Permission Blocked
 
 
 
@@ -56,7 +56,7 @@
 
 
 
-    * UI Status\_Permission "Askiing"&#x20;
+    * UI Status\_Permission Asking
 
 
 
@@ -66,8 +66,8 @@
 
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
-* And the camera permission status is "Blocked"
-* and I have the check-in data for the date corresponding to the step out date.
+* And the camera permission status is Blocked
+* and I have the checkin data for the date corresponding to the step out date.
 * When I click button step out&#x20;
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
@@ -80,8 +80,8 @@
 
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
-* And the location permission status is "asking"
-* and I have the check-in data for the date corresponding to the step out date.
+* And the location permission status is asking
+* and I have the checkin data for the date corresponding to the step out date.
 * When I click button step out&#x20;
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
@@ -100,11 +100,11 @@
 
 *   Then the location permission status become \<status\_permission>
 
-    * UI Status\_Permission "Blocked"
+    * UI Status\_Permission Blocked
     *
 
         <figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
-    * UI Status\_Permission "Asking"
+    * UI Status\_Permission Asking
 
 
 
@@ -116,7 +116,7 @@
 
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
-* And the location permission status is "blocked"
+* And the location permission status is blocked
 * and I have the check-in data for the date corresponding to the step out date.
 * When I click button step out&#x20;
 
@@ -141,8 +141,6 @@ SO.F7&#x20;\- Photo not captured.&#x20;Please take a photo&#x20;before contin
 
 <figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
-
-
 <figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
 * Then I can view notifications "photo not capture. please take a photo before continuing"
@@ -165,9 +163,7 @@ SO.F8&#x20;\- Location not found.&#x20;Make sure GPS & internet are turned on,
 
 <figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
-
-
-* And I type "Ke bank untuk keperluan kantor" into column "notes"
+* And I type Ke bank untuk keperluan kantor into column notes
 
 <figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
@@ -195,7 +191,7 @@ SO.F8&#x20;\- Location not found.&#x20;Make sure GPS & internet are turned on,
 
 <figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
-* And I type "Ke bank untuk keperluan kantor" into column "notes"
+* And I type Ke bank untuk keperluan kantor into column notes
 
 <figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
@@ -211,4 +207,4 @@ Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang diruba
 
 <figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
-* Then, the 'step out' duration will reduce working hours.
+* Then, the step out duration will reduce working hours.

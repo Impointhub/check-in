@@ -3,7 +3,7 @@
 ## R2.F1 - User redirect to login page
 
 * Given user visit `/checkin/create` url without signin
-* Then user redirected to `Sign In` page
+* Then user redirected to /`Sign In` page
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
@@ -12,7 +12,7 @@
 * Given I on the report
 * And I on the page `/checkin`
 * And I have data step out - step in as below&#x20;
-* When I click "O/I"
+* When I click O/I
 * Then I can see data following the formula&#x20;
   * Total step in - step out = Step out - Step in&#x20;
 

@@ -4,12 +4,12 @@
 
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
-* When I click button "O/I"
-* And I select  filter period from "01/08/2026" and to "08/08/2026"
+* When I click button O/I
+* And I select  filter period from 01/08/2026 and to 08/08/2026
 
 <figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
 
-* And I select filter column "Date, Day, Employee, Stepout, Stepin, Total"
+* And I select filter column Date, Day, Employee, Stepout, Stepin, Total
 
 <figure><img src="../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
 
@@ -25,7 +25,7 @@
 
 * Given I already logged in&#x20;
 * And I on the page `/checkin`
-* When click button "O/I"
+* When click button O/I
 * And I click export&#x20;
 
 <figure><img src="../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
