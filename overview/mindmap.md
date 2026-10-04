@@ -20,25 +20,25 @@
 
 <figure><img src="../.gitbook/assets/Checkin-Checkout .drawio (5).png" alt=""><figcaption></figcaption></figure>
 
-## Workhour Report&#x20;
+## Report WH
 
 <figure><img src="../.gitbook/assets/Checkin-Laporan jam kerja .drawio (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
-## Export Workhour Report&#x20;
+## Export & Filter Report WH
 
 <figure><img src="../.gitbook/assets/Checkin-Export Laporan Jam kerja .drawio (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
-## Laporan Step Out Step In&#x20;
+## Reportt Step In & Out
 
 <figure><img src="../.gitbook/assets/Checkin-Laporan Step out step in .drawio (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
-## Export Laporan Step Out  Step In&#x20;
+## Export & Filter Step in & Out
 
 <figure><img src="../.gitbook/assets/Checkin-Export laporan step out .drawio (1).png" alt=""><figcaption></figcaption></figure>
 
