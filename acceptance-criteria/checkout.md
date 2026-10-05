@@ -176,7 +176,7 @@ CO.F7&#x20;\- Location not found.&#x20;Make sure GPS & internet are turned on,
 
 <figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
-* Then I can redirect to feedpage&#x20;
+* Then I can redirect to feedpage to see checkout data&#x20;
 
 {% hint style="info" %}
 Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang dirubah hanya tombol bawah._&#x20;

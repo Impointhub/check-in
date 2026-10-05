@@ -166,7 +166,7 @@ CI.F7&#x20;\- Location not found. Make sure GPS & internet are turned on, then 
 
 <figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
-* Then I can redirect to feedpage&#x20;
+* Then I can redirect to feedpage to see checkin data&#x20;
 
 {% hint style="info" %}
 Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang dirubah hanya tombol bawah._&#x20;

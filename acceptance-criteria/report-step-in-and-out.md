@@ -18,13 +18,13 @@
 
 | Tanggal    | Nama Employee  | Days  | Time Step Out | Time Step In | Total Step In - Step Out | Step Out Notes          | Step In Notes                     |
 | ---------- | -------------- | ----- | ------------- | ------------ | ------------------------ | ----------------------- | --------------------------------- |
-| 22/07/2026 | Dewi Kartika   | Rabu  | 12:00         | 13:30        | 1:50                     | makan siang             | kembali (1,5 jam)                 |
-| 22/07/2026 | Rina Wulandari | Rabu  | 10:00         | 11:30        | 1:50                     | istirahat               | kembali (1,5 jam)                 |
-| 22/07/2026 | Rina Wulandari | Rabu  | 13:00         | 15:00        | 2:00                     | antar dokumen ke client | kembali (2 jam tugas kantor)      |
-| 22/07/2026 | Yusuf Ibrahim  | Rabu  | 10:00         | 11:30        | 1:50                     | istirahat               | kembali (1,5 jam)                 |
-| 22/07/2026 | Yusuf Ibrahim  | Rabu  | 13:00         | 15:00        | 2:00                     | urus keperluan pribadi  | kembali (2 jam keperluan pribadi) |
-| 25/07/2026 | Siti Rahma     | Sabtu | 11:00         | 12:30        | 1:50                     | istirahat               | kembali (1,5 jam)                 |
-| 27/07/2026 | Rina Wulandari | Senin | 12:00         | 12:30        | 0:50                     | istirahat               | kembali 30 menit                  |
+| 22/07/2026 | Dewi Kartika   | Rabu  | 12:00         | 13:30        | 1.50                     | makan siang             | kembali (1,5 jam)                 |
+| 22/07/2026 | Rina Wulandari | Rabu  | 10:00         | 11:30        | 1.50                     | istirahat               | kembali (1,5 jam)                 |
+| 22/07/2026 | Rina Wulandari | Rabu  | 13:00         | 15:00        | 2.00                     | antar dokumen ke client | kembali (2 jam tugas kantor)      |
+| 22/07/2026 | Yusuf Ibrahim  | Rabu  | 10:00         | 11:30        | 1.50                     | istirahat               | kembali (1,5 jam)                 |
+| 22/07/2026 | Yusuf Ibrahim  | Rabu  | 13:00         | 15:00        | 2.00                     | urus keperluan pribadi  | kembali (2 jam keperluan pribadi) |
+| 25/07/2026 | Siti Rahma     | Sabtu | 11:00         | 12:30        | 1.50                     | istirahat               | kembali (1,5 jam)                 |
+| 27/07/2026 | Rina Wulandari | Senin | 12:00         | 12:30        | 0.50                     | istirahat               | kembali 30 menit                  |
 
 
 
