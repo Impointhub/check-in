@@ -17,13 +17,13 @@ Net Working Hours  = Gross Working Duration - Step Out Duration
 
 | Attendance Date | Day   | Employee                                     | Time In / Clock In | Time out / Clock Out | Gross Working duration | Step out  Duration | Net Working Hours |
 | --------------- | ----- | -------------------------------------------- | ------------------ | -------------------- | ---------------------- | ------------------ | ----------------- |
-| 22/07/2026      | Rabu  | Case 1 - Budi Santoso                        | 08:00              |                      | 0.00                   | 1:50               | -1.50             |
-| 22/07/2026      | Rabu  | Case 2 - Dewi Kartika                        | 08:00              | 16:00                | 8.00                   | 1:50               | 6.50              |
-| 22/07/2026      | Rabu  | Case 3 - Rina Wulandari                      | 08:00              | 16:00                | 8.00                   | 3:50               | 4.50              |
-| 22/07/2026      | Rabu  | Case 4 - Yusuf Ibrahim                       | 08:00              | 16:00                | 8.00                   | 3:00               | 5.00              |
-| 25/07/2026      | Sabtu | Case 5 - Ahmad Fauzi (Sabtu, normal)         | 08:00              | 13:00                | 5.00                   | 0:00               | 5.00              |
-| 25/07/2026      | Sabtu | Case 6 - Siti Rahma (Sabtu, istirahat lebih) | 08:00              | 13:00                | 5.00                   | 1:50               | 3.50              |
-| 27/07/2026      | Senin | Case 7 - Rina Wulandari (Senin)              | 08:00              | 16:00                | 8.00                   | 0:50               | 7.50              |
+| 22/07/2026      | Rabu  | Case 1 - Budi Santoso                        | 08:00              |                      | 0.00                   | 1.50               | -1.50             |
+| 22/07/2026      | Rabu  | Case 2 - Dewi Kartika                        | 08:00              | 16:00                | 8.00                   | 1.50               | 6.50              |
+| 22/07/2026      | Rabu  | Case 3 - Rina Wulandari                      | 08:00              | 16:00                | 8.00                   | 3.50               | 4.50              |
+| 22/07/2026      | Rabu  | Case 4 - Yusuf Ibrahim                       | 08:00              | 16:00                | 8.00                   | 3.00               | 5.00              |
+| 25/07/2026      | Sabtu | Case 5 - Ahmad Fauzi (Sabtu, normal)         | 08:00              | 13:00                | 5.00                   | 0.00               | 5.00              |
+| 25/07/2026      | Sabtu | Case 6 - Siti Rahma (Sabtu, istirahat lebih) | 08:00              | 13:00                | 5.00                   | 1.50               | 3.50              |
+| 27/07/2026      | Senin | Case 7 - Rina Wulandari (Senin)              | 08:00              | 16:00                | 8.00                   | 0.50               | 7.50              |
 
 
 
