@@ -9,18 +9,18 @@
 
 ## CI.F2 - Displaying a pop-up to request permission camera
 
-* Given I already logged In&#x20;
+* Given I already logged In
 * And I on the page `/checkin`
 * And the camera permission status is Asking
-* When I click button checkin&#x20;
+* When I click button checkin
 
-<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
 
 * And the camera permission status is Asking
 
 <figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
-* When I click \<permission choice> on the prompt&#x20;
+* When I click \<permission choice> on the prompt
 
 | Permission choice | Status\_Permission | Respon                        |
 | ----------------- | ------------------ | ----------------------------- |
@@ -32,43 +32,39 @@
 
     * UI Status\_Permission Blocked
 
-
-
     <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
     * UI Status\_Permission Asking
-
-
 
     <figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
 ## CI.F3 - Display a text "camera permission blocked"
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * And the camera permission status is Blocked
-* When I click button checkin&#x20;
+* When I click button checkin
 
-<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
 
-* Then I can view error message Camera access is blocked&#x20;
+* Then I can view error message Camera access is blocked
 
 <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
 ## CI.F4 - Displaying a pop-up to request permission location
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * And the location permission status is asking
-* When I click button checkin&#x20;
+* When I click button checkin
 
-<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
 
 * Then the system displays the native browser permission prompt for the location
 
 <figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
-* When I click \<permission choice> on the prompt&#x20;
+* When I click \<permission choice> on the prompt
 
 | Permission choice | Status\_Permission | Respon                        |
 | ----------------- | ------------------ | ----------------------------- |
@@ -80,19 +76,17 @@
 
     * UI Status\_ Permission Blocked
 
-
-
     <figure><img src="../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
-* UI Status Permission  asking
+* UI Status Permission asking
 
 <figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
 ## CI.F5 - Display a text "Location access is blocked"
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * And the location permission status is blocked
-* When I click button checkin&#x20;
+* When I click button checkin
 
 <figure><img src="../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
 
@@ -100,14 +94,12 @@
 
 <figure><img src="../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
 
-CI.F6
-&#x20;\- Photo not captured. Please take a photo before continuing.
--------------------------------------------------------------------
+## CI.F6 - Photo not captured. Please take a photo before continuing.
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * And I have granted camera access permission
-* When I click button checkin&#x20;
+* When I click button checkin
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
@@ -121,23 +113,21 @@ CI.F6
 
 <figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-CI.F7
-&#x20;\- Location not found. Make sure GPS & internet are turned on, then try again
------------------------------------------------------------------------------------
+## CI.F7 - Location not found. Make sure GPS & internet are turned on, then try again
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * and I have granted access permission for the camera
 * and I did not grant GPS access permission
-* When I click button checkin&#x20;
+* When I click button checkin
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-* And I click capture&#x20;
+* And I click capture
 
 <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-* And I click submit&#x20;
+* And I click submit
 
 <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
@@ -147,16 +137,16 @@ CI.F7
 
 ## CI.S1 - Checkin success, redirect to feed page
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * and I have granted access permission for the camera
 * and I have granted access GPS access permission
 * and my location has been detected
 * When I click button checkin
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-* And I click capture&#x20;
+* And I click capture
 
 <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
@@ -164,18 +154,18 @@ CI.F7
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
-* And I  click submit&#x20;
+* And I click submit
 
 <figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
-* Then I can redirect to feedpage to see checkin data&#x20;
+* Then I can redirect to feedpage to see checkin data
 
 {% hint style="info" %}
-Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang dirubah hanya tombol bawah._&#x20;
+Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang dirubah hanya tombol bawah._
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
-* And I can view button stepout, checkout, stepin in the bottom&#x20;
+* And I can view button stepout, checkout, stepin in the bottom
 
 <figure><img src="../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>

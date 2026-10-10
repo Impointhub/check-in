@@ -9,7 +9,7 @@
 
 ## SI.F2 - Step In button disabled
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * and I on the page `/checkin`
 * and I dont have stepout data
 * then I will see the Step In button disabled.
@@ -18,11 +18,11 @@
 
 ## SI.F3 - Displaying a pop-up to request permission
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * And the camera permission status is Asking
 * and I have the step out data for the date corresponding to the step-in date.
-* When I click button step in&#x20;
+* When I click button step in
 
 <figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
@@ -30,7 +30,7 @@
 
 <figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
-* When I click \<Permission choice> on the prompt&#x20;
+* When I click \<Permission choice> on the prompt
 
 | Permission choice | Status\_Permission | Respon                        |
 | ----------------- | ------------------ | ----------------------------- |
@@ -42,45 +42,41 @@
 
     * UI Status\_Permission Blocked
 
-
-
     <figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
     * UI Status\_Permission Asking
-
-
 
     <figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
 ## SI.F4 - Display a text "camera permission blocked
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * And the camera permission status is Blocked
 * and I have the step out data for the date corresponding to the step-in date.
-* When I click button step in&#x20;
+* When I click button step in
 
 <figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
-* Then I can view error message "Camera access is blocked"&#x20;
+* Then I can view error message "Camera access is blocked"
 
 <figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
 ## SI.F5 - Displaying a pop-up to request permission
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * And the location permission status is asking
 * and I have the step out data for the date corresponding to the step-in date.
-* When I click button step in&#x20;
+* When I click button step in
 
 <figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
-* Then the system displays the native browser permission prompt for the location&#x20;
+* Then the system displays the native browser permission prompt for the location
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-* When I click \<permission choice> on the prompt&#x20;
+* When I click \<permission choice> on the prompt
 
 | Permission choice | Status\_Permission | Respon                        |
 | ----------------- | ------------------ | ----------------------------- |
@@ -88,7 +84,7 @@
 | Don't Allow       | Blocked            | Location access is blocked    |
 | Dismiss           | Asking             | Re-validate permission status |
 
-*   Then the location camera permission status becomes \<status\_permission>&#x20;
+*   Then the location camera permission status becomes \<status\_permission>
 
     * UI Status\_Permission Blocked
 
@@ -96,17 +92,15 @@
 
     * UI Status\_Permission Asking
 
-
-
     <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## SI.F6 - Display a text "Location not detected"
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * And the location permission status is blocked
 * and I have the step out data for the date corresponding to the step-in date.
-* When I click button step in&#x20;
+* When I click button step in
 
 <figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
@@ -114,10 +108,9 @@
 
 <figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
-SI.F7&#x20;\- Photo not captured. Please take a photo
----------------------
+## SI.F7 - Photo not captured . Please take a photo
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * and I have the step out data for the date corresponding to the step-in date.
 * I have granted camera access permission
@@ -135,23 +128,22 @@ SI.F7&#x20;\- Photo not captured. Please take a photo
 
 <figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
-SI.F8&#x20;\- Location not found.&#x20;Make sure GPS & internet&#x20;are turned on,&#x20;then try again
---------------------
+## SI.F8 - Location not found. Make sure GPS & internet are turned on, then try again
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * and I have granted access permission for the camera
 * and I did not grant GPS access permission
 * and I have the step out data for the date corresponding to the step-in date.
-* When I click button step in&#x20;
+* When I click button step in
 
 <figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
-* And I click capture&#x20;
+* And I click capture
 
 <figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
-* And I click submit&#x20;
+* And I click submit
 
 <figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
@@ -161,7 +153,7 @@ SI.F8&#x20;\- Location not found.&#x20;Make sure GPS & internet&#x20;are turn
 
 ## SI.S1 - Step In success, redirect to feed page
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * and I have granted access permission for the camera
 * and I have granted access GPS access permission
@@ -171,22 +163,22 @@ SI.F8&#x20;\- Location not found.&#x20;Make sure GPS & internet&#x20;are turn
 
 <figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
-* And I click capture&#x20;
+* And I click capture
 
 <figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
 * And I type step in dari bank untuk keperluan kantor into column notes
 
-<figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 
-* And I  click submit&#x20;
+* And I click submit
 
 <figure><img src="../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
 
-* Then I can redirect to feedpage to see step in data&#x20;
+* Then I can redirect to feedpage to see step in data
 
 {% hint style="info" %}
-Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang dirubah hanya tombol bawah._&#x20;
+Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang dirubah hanya tombol bawah._
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>

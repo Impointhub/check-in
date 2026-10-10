@@ -9,11 +9,11 @@
 
 ## CO.F2 - Displaying a pop-up to request permission camera
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * And I have checkin data for date 25 jul 2026
 * And the camera permission status is Asking
-* When I click button checkout&#x20;
+* When I click button checkout
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
@@ -21,7 +21,7 @@
 
 <figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
-* When I click \<permission choice> on the prompt&#x20;
+* When I click \<permission choice> on the prompt
 
 | Permission choice | Status\_Permission | Respon                        |
 | ----------------- | ------------------ | ----------------------------- |
@@ -33,45 +33,39 @@
 
     * UI Status\_Permission Blocked
 
-
-
     <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
     * UI Status\_Permission Asking
 
-
-
     <figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
-CO.F3
-&#x20;\- Display a text "camera permission blocked"
----------------------------------------------------
+## CO.F3 - Display a text "camera permission blocked"
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * And the camera permission status is Blocked
-* When I click button checkout&#x20;
+* When I click button checkout
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
-* Then I can view error message "Camera access is blocked"&#x20;
+* Then I can view error message "Camera access is blocked"
 
 <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
 ## CO.F4 - Displaying a pop-up to request permission location
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * And the location permission status is asking
-* When I click button checkout&#x20;
+* When I click button checkout
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
-* Then the system displays the native browser permission prompt for the location&#x20;
+* Then the system displays the native browser permission prompt for the location
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-* When I click \<Permission choice> on the prompt&#x20;
+* When I click \<Permission choice> on the prompt
 
 | Permission choice | Status\_Permission | Respon                        |
 | ----------------- | ------------------ | ----------------------------- |
@@ -83,22 +77,18 @@ CO.F3
 
     * UI Status\_Permission Blocked
 
-
-
     <figure><img src="../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
 
     * UI Status\_Permission Asking
-
-
 
     <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## CO.F5 - Display a text "Location access is blocked"
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * And the location permission status is blocked
-* When I click button checkout&#x20;
+* When I click button checkout
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
@@ -106,17 +96,13 @@ CO.F3
 
 <figure><img src="../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
 
-CO.F6
-&#x20;\- Photo not captured.
-&#x20;Please take a photo
-&#x20;before continuing
------------------------
+## CO.F6 - Photo not captured. Please take a photo before continuing
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * And I have granted camera access permission
 * And I have check-in data for the same date as the check-out
-* When I click button checkout&#x20;
+* When I click button checkout
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
@@ -130,12 +116,9 @@ CO.F6
 
 <figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
-CO.F7
-&#x20;\- Location not found.
-&#x20;Make sure GPS & internet are turned on, then try again
-------------------------------------------------------------
+## CO.F7 - Location not found. Make sure GPS & internet are turned on, then try again
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * and I have granted access permission for the camera
 * and I did not grant GPS access permission
@@ -146,11 +129,9 @@ CO.F7
 
 * And I click capture
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
-&#x20;
-
-* And I click submit&#x20;
+* And I click submit
 
 <figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
@@ -160,7 +141,7 @@ CO.F7
 
 ## CO.S1 - Checkout success, redirect to feed page
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * and I have granted access permission for the camera
 * and I have granted access GPS access permission
@@ -170,7 +151,7 @@ CO.F7
 
 <figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
-* And I click capture&#x20;
+* And I click capture
 
 <figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
@@ -178,18 +159,18 @@ CO.F7
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
-* And I  click submit&#x20;
+* And I click submit
 
-<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
-* Then I can redirect to feedpage to see checkout data&#x20;
+* Then I can redirect to feedpage to see checkout data
 
 {% hint style="info" %}
-Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang dirubah hanya tombol bawah._&#x20;
+Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang dirubah hanya tombol bawah._
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
-* And I can see button checkin&#x20;
+* And I can see button checkin
 
 <figure><img src="../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>

@@ -7,14 +7,9 @@
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
+## SO.F2 - See Button Checkin
 
-
-
-
-
-## SO.F2 - See Button Checkin&#x20;
-
-* Given I already logged in&#x20;
+* Given I already logged in
 * and I on the page `/checkin`
 * and I don't have the check-in data yet
 
@@ -22,15 +17,15 @@
 
 * Then I will see the check-in button before the step out button.
 
-<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 ## SO.F3 - Displaying a pop-up to request permission
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * And the camera permission status is Asking
 * and I have the check-in data for the date corresponding to the step out date.
-* When I click button step out&#x20;
+* When I click button step out
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
@@ -38,7 +33,7 @@
 
 <figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
-* When I click \<permission choice> on the prompt&#x20;
+* When I click \<permission choice> on the prompt
 
 | Permission choice | Status\_Permission | Respon                        |
 | ----------------- | ------------------ | ----------------------------- |
@@ -50,43 +45,37 @@
 
     * UI Status\_Permission Blocked
 
-
-
     <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
-
-
     * UI Status\_Permission Asking
-
-
 
     <figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
 ## SO.F4 - Display a text "camera permission blocked"
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * And the camera permission status is Blocked
 * and I have the checkin data for the date corresponding to the step out date.
-* When I click button step out&#x20;
+* When I click button step out
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
-* Then I can view error message "Camera access is blocked"&#x20;
+* Then I can view error message "Camera access is blocked"
 
 <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
 ## SO.F5 - Displaying a pop-up to request permission
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * And the location permission status is asking
 * and I have the checkin data for the date corresponding to the step out date.
-* When I click button step out&#x20;
+* When I click button step out
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
-* Then the system displays the native browser permission prompt for the location&#x20;
+* Then the system displays the native browser permission prompt for the location
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -103,22 +92,21 @@
     * UI Status\_Permission Blocked
     *
 
-        <figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+    ```
+    <figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+    ```
+
     * UI Status\_Permission Asking
-
-
 
     <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-
-
 ## SO.F6 - Display a text "Location access is blocked"
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * And the location permission status is blocked
 * and I have the check-in data for the date corresponding to the step out date.
-* When I click button step out&#x20;
+* When I click button step out
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
@@ -126,14 +114,13 @@
 
 <figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
-SO.F7&#x20;\- Photo not captured.&#x20;Please take a photo&#x20;before continuing
------------------------
+## SO.F7 - Photo not captured. Please take a photo before continuing
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * and I have the check-in data for the date corresponding to the step out date.
 * I have granted camera access permission
-* When I click button step out&#x20;
+* When I click button step out
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
@@ -147,10 +134,9 @@ SO.F7&#x20;\- Photo not captured.&#x20;Please take a photo&#x20;before contin
 
 <figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
-SO.F8&#x20;\- Location not found.&#x20;Make sure GPS & internet are turned on, then try again
-------------------------------------------------------------
+## SO.F8 - Location not found. Make sure GPS & internet are turned on, then try again
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * and I have granted access permission for the camera
 * and I did not grant GPS access permission
@@ -159,7 +145,7 @@ SO.F8&#x20;\- Location not found.&#x20;Make sure GPS & internet are turned on,
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
-* And I click capture&#x20;
+* And I click capture
 
 <figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
@@ -167,7 +153,7 @@ SO.F8&#x20;\- Location not found.&#x20;Make sure GPS & internet are turned on,
 
 <figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
-* And I click submit&#x20;
+* And I click submit
 
 <figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
@@ -177,17 +163,17 @@ SO.F8&#x20;\- Location not found.&#x20;Make sure GPS & internet are turned on,
 
 ## SO.S1 - Step Out success, redirect to feed page
 
-* Given I already logged in&#x20;
+* Given I already logged in
 * And I on the page `/checkin`
 * and I have granted access permission for the camera
 * and I have granted access GPS access permission
 * and my location has been detected
 * and I have the check-in data for the date corresponding to the step out date.
-* When I click button step out&#x20;
+* When I click button step out
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
-* And I click capture&#x20;
+* And I click capture
 
 <figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
@@ -195,14 +181,14 @@ SO.F8&#x20;\- Location not found.&#x20;Make sure GPS & internet are turned on,
 
 <figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
-* And I  click submit&#x20;
+* And I click submit
 
 <figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
-* Then I can redirect to feedpage to see step out data&#x20;
+* Then I can redirect to feedpage to see step out data
 
 {% hint style="info" %}
-Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang dirubah hanya tombol bawah._&#x20;
+Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang dirubah hanya tombol bawah._
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
