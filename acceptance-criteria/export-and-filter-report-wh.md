@@ -10,7 +10,7 @@
 
 * And I select filter period from 01/08/2026 and to 08/08/2026
 
-<figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
 
 * And I select filter column attendance date, day, employee name, time in /clockin, time out / clock out, gross working duration, Step out duration, net workhour"
 
