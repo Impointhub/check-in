@@ -43,7 +43,8 @@
 
     <figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
-CO.F3&#x20;\- Display a text "camera permission blocked"
+CO.F3
+&#x20;\- Display a text "camera permission blocked"
 ---------------------------------------------------
 
 * Given I already logged in&#x20;
@@ -105,7 +106,10 @@ CO.F3&#x20;\- Display a text "camera permission blocked"
 
 <figure><img src="../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
 
-CO.F6&#x20;\- Photo not captured.&#x20;Please take a photo&#x20;before continuing
+CO.F6
+&#x20;\- Photo not captured.
+&#x20;Please take a photo
+&#x20;before continuing
 -----------------------
 
 * Given I already logged in&#x20;
@@ -126,7 +130,9 @@ CO.F6&#x20;\- Photo not captured.&#x20;Please take a photo&#x20;before contin
 
 <figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
-CO.F7&#x20;\- Location not found.&#x20;Make sure GPS & internet are turned on, then try again
+CO.F7
+&#x20;\- Location not found.
+&#x20;Make sure GPS & internet are turned on, then try again
 ------------------------------------------------------------
 
 * Given I already logged in&#x20;
@@ -168,7 +174,7 @@ CO.F7&#x20;\- Location not found.&#x20;Make sure GPS & internet are turned on,
 
 <figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
-* And I type absen berhasil into column notes
+* And I type absensi berhasil into column notes
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
