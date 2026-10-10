@@ -100,7 +100,8 @@
 
 <figure><img src="../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
 
-CI.F6&#x20;\- Photo not captured. Please take a photo before continuing.
+CI.F6
+&#x20;\- Photo not captured. Please take a photo before continuing.
 -------------------------------------------------------------------
 
 * Given I already logged in&#x20;
@@ -120,7 +121,8 @@ CI.F6&#x20;\- Photo not captured. Please take a photo before continuing.
 
 <figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-CI.F7&#x20;\- Location not found. Make sure GPS & internet are turned on, then try again
+CI.F7
+&#x20;\- Location not found. Make sure GPS & internet are turned on, then try again
 -----------------------------------------------------------------------------------
 
 * Given I already logged in&#x20;
@@ -158,7 +160,7 @@ CI.F7&#x20;\- Location not found. Make sure GPS & internet are turned on, then 
 
 <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-* And I type absen berhasil into column notes
+* And I type absensi berhasil into column notes
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
