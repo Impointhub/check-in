@@ -13,6 +13,9 @@
 * And I on the page `/checkin`
 * And I have data step out - step in as below
 * When I click O/I
+
+<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+
 * Then I can see data following the formula
   * Total step in - step out = Step out - Step in
 
