@@ -6,7 +6,7 @@
 
 ## Sample Database&#x20;
 
-| Attendance Date | Day   | Employee                                     | Time In / Clock In | Time out / Clock Out | Gross Working duration | Step out Duration | Net Working Hours |
+| Attendance Date | Day   | Employee                                     | Clock In |  Clock Out | Gross Working duration | Step out Duration | Net Working Hours |
 | --------------- | ----- | -------------------------------------------- | ------------------ | -------------------- | ---------------------- | ----------------- | ----------------- |
 | 22/07/2026      | Rabu  | Case 1 - Budi Santoso                        | 08:00              | 16:00                | 8.00                   | 0.00              | 8.00              |
 | 22/07/2026      | Rabu  | Case 2 - Dewi Kartika                        | 08:00              | 16:00                | 8.00                   | 1.50              | 6.50              |
