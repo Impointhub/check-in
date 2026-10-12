@@ -6,7 +6,7 @@
 * And I on the page `/checkin`
 * When I click button O/I
 
-<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 * And I select filter period from 01/08/2026 and to 31/08/2026
 
@@ -30,7 +30,7 @@
 * And I on the page `/checkin`
 * When click button O/I
 
-<figure><img src="../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 * And I click export
 

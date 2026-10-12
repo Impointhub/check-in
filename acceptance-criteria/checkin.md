@@ -158,13 +158,25 @@
 
 <figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
-* Then I can redirect to feedpage to see checkin data
+* Then I can redirect to feedpage to see checkin data&#x20;
 
 {% hint style="info" %}
 Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang dirubah hanya tombol bawah._
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
+* And I can see my check-in data with the following fields:&#x20;
+
+| Field         | Value                |
+| ------------- | -------------------- |
+| Full Name     | Nur Aini             |
+| Username      | @nrainii             |
+| Location      | 429812138, 239428323 |
+| Notes         | Check-in successful  |
+| Check-in Date | 25 Jul 2026          |
+| Check-in Time | 08:00                |
+| Photo         | Captured photo       |
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 * And I can view button stepout, checkout, stepin in the bottom
 

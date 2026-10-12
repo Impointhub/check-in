@@ -63,7 +63,7 @@
 
 * Then the system displays the native browser permission prompt for the location
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * When I click \<Permission choice> on the prompt
 
@@ -81,7 +81,7 @@
 
     * UI Status\_Permission Asking
 
-    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## CO.F5 - Display a text "Location access is blocked"
 
