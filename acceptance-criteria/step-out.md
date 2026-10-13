@@ -37,19 +37,7 @@
 
 <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
-## SO.F5 - Displaying a pop-up to request permission
-
-
-
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
-
-* Then the system displays the native browser permission prompt for the location
-
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-
-
-## SO.F6 - Display a text "Location access is blocked"
+## SO.F4 - Display a text "Location access is blocked"
 
 * Given I already logged in
 * And I on the page `/checkin`
@@ -67,7 +55,7 @@
 
 <figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
-## SO.F7 - Photo not captured. Please take a photo before continuing
+## SO.F5 - Photo not captured. Please take a photo before continuing
 
 * Given I already logged in
 * And I on the page `/checkin`
@@ -87,7 +75,7 @@
 
 <figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
-## SO.F8 - Location not found. Make sure GPS & internet are turned on, then try again
+## SO.F6 - Location not found. Make sure GPS & internet are turned on, then try again
 
 * Given I already logged in
 * And I on the page `/checkin`
