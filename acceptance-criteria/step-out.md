@@ -13,53 +13,25 @@
 * and I on the page `/checkin`
 * and I don't have the check-in data yet
 
-<figure><img src="../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (163).png" alt=""><figcaption></figcaption></figure>
 
 * Then I will see the step out button disable&#x20;
 
 <figure><img src="../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
 
-## SO.F3 - Displaying a pop-up to request permission
+## SO.F3 - Display a text "camera permission blocked"
 
 * Given I already logged in
 * And I on the page `/checkin`
 * And the camera permission status is Asking
-* and I have the check-in data for the date corresponding to the step out date.
-* When I click button step out
-
-<figure><img src="../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure>
-
-* Then the system displays the native browser permission prompt for the camera
-
-<figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
-
-* When I click \<permission choice> on the prompt
-
-| Permission choice | Status\_Permission | Respon                        |
-| ----------------- | ------------------ | ----------------------------- |
-| Allow             | Allow              | Continue to next validation   |
-| Don't Allow       | Blocked            | Camera access is blocked      |
-| Dismiss           | Asking             | Re-validate permission status |
-
-*   Then the camera permission status becomes \<status\_permission>
-
-    * UI Status\_Permission Blocked
-
-    <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
-
-    * UI Status\_Permission Asking
-
-    <figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
-
-## SO.F4 - Display a text "camera permission blocked"
-
-* Given I already logged in
-* And I on the page `/checkin`
-* And the camera permission status is Blocked
 * and I have the checkin data for the date corresponding to the step out date.
 * When I click button step out
 
 <figure><img src="../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure>
+
+* And I click Don't Allow on the prompt&#x20;
+
+<figure><img src="../.gitbook/assets/image (164).png" alt=""><figcaption></figcaption></figure>
 
 * Then I can view error message "Camera access is blocked"
 
@@ -67,11 +39,7 @@
 
 ## SO.F5 - Displaying a pop-up to request permission
 
-* Given I already logged in
-* And I on the page `/checkin`
-* And the location permission status is asking
-* and I have the checkin data for the date corresponding to the step out date.
-* When I click button step out
+
 
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
@@ -79,36 +47,21 @@
 
 <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-* When I click permission \<Permission choice>
 
-| Permission choice | Status\_Permission | Respon                        |
-| ----------------- | ------------------ | ----------------------------- |
-| Allow             | Allow              | Continue to next validation   |
-| Don't Allow       | Blocked            | Location access is blocked    |
-| Dismiss           | Asking             | Re-validate permission status |
-
-*   Then the location permission status become \<status\_permission>
-
-    * UI Status\_Permission Blocked
-    *
-
-    ```
-    <figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
-    ```
-
-    * UI Status\_Permission Asking
-
-    <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## SO.F6 - Display a text "Location access is blocked"
 
 * Given I already logged in
 * And I on the page `/checkin`
-* And the location permission status is blocked
+* And the location permission status is asking
 * and I have the check-in data for the date corresponding to the step out date.
 * When I click button step out
 
 <figure><img src="../.gitbook/assets/image (145).png" alt=""><figcaption></figcaption></figure>
+
+* And I click Dont Allow on the prompt&#x20;
+
+<figure><img src="../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
 
 * Then I can view notification "Location access is blocked"
 
@@ -165,13 +118,20 @@
 
 * Given I already logged in
 * And I on the page `/checkin`
-* and I have granted access permission for the camera
-* and I have granted access GPS access permission
-* and my location has been detected
+* And the camera permission status is Asking
+* And the location permission status is asking
 * and I have the check-in data for the date corresponding to the step out date.
 * When I click button step out
 
 <figure><img src="../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure>
+
+* And I click Allow on the camera prompt&#x20;
+
+<figure><img src="../.gitbook/assets/image (167).png" alt=""><figcaption></figcaption></figure>
+
+* And I click Allow on the location prompt&#x20;
+
+<figure><img src="../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
 
 * And I click capture
 
