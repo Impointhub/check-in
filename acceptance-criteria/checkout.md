@@ -110,7 +110,7 @@
 
 * And I type absensi berhasil into column notes
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 * And I click submit
 
@@ -129,7 +129,7 @@ Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang diruba
 | Full Name | Nur Aini             |
 | Username  | @nrainii             |
 | Location  | 429812138, 239428323 |
-| Notes     | Check-in successful  |
+| Notes     | absensi berhasil     |
 | Date      | 25 Jul 2026          |
 | Time      | 08:00                |
 | Photo     | Captured photo       |
