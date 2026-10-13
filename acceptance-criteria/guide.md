@@ -7,4 +7,4 @@
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-* Then I redirect to [https://app.notion.com/p/attendance-pointhub/Check-In-074377eb0cf84a5d8c371af7723a1e95?source=copy\_link](https://app.notion.com/p/attendance-pointhub/Check-In-074377eb0cf84a5d8c371af7723a1e95?source=copy_link)
+* Then I redirect to [https://blue-fly-16d.notion.site/Panduan-Penggunaan-HRIS-Absensi-3f8ec7992bcc81fbb87cc83d426f3105#968900f68d354f8abd53bf790069fbec](https://blue-fly-16d.notion.site/Panduan-Penggunaan-HRIS-Absensi-3f8ec7992bcc81fbb87cc83d426f3105#968900f68d354f8abd53bf790069fbec)
