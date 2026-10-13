@@ -31,7 +31,7 @@ Format Excel : [https://docs.google.com/spreadsheets/d/1pK\_JPM9IdEwC2TiZIgbJEL8
 ## E1.S2 - Export without filter, system exports data for all columns
 
 * Given I already logged in
-* And I on the page [https://checkin.pointhub.net/](https://checkin.pointhub.net/)
+* And I on the page /checkin
 * When I click wh
 
 <figure><img src="../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
