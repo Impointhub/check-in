@@ -6,11 +6,11 @@
 
 ## Step Out
 
-
+<figure><img src="../.gitbook/assets/Checkin-Step out .drawio (9).png" alt=""><figcaption></figcaption></figure>
 
 ## Step In
 
-<figure><img src="../.gitbook/assets/Checkin-Step in .drawio (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Checkin-Step in .drawio (7).png" alt=""><figcaption></figcaption></figure>
 
 ## Checkout
 
