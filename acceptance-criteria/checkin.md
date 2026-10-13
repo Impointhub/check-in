@@ -7,94 +7,45 @@
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-## CI.F2 - Displaying a pop-up to request permission camera
 
-* Given I already logged In
+
+## CI.F2 - Display a text "camera permission blocked"
+
+* Given I already logged in
 * And I on the page `/checkin`
 * And the camera permission status is Asking
 * When I click button checkin
 
 <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
-* And the camera permission status is Asking
+* And I click don't allow on the prompt
 
-<figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
-
-* When I click \<permission choice> on the prompt
-
-| Permission choice | Status\_Permission | Respon                        |
-| ----------------- | ------------------ | ----------------------------- |
-| Allow             | Allow              | Continue to next validation   |
-| Don't Allow       | Blocked            | Camera access is blocked      |
-| Dismiss           | Asking             | Re-validate permission status |
-
-*   Then the camera permission status becomes \<Status\_Permission>
-
-    * UI Status\_Permission Blocked
-
-    <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
-
-    * UI Status\_Permission Asking
-
-    <figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
-
-## CI.F3 - Display a text "camera permission blocked"
-
-* Given I already logged in
-* And I on the page `/checkin`
-* And the camera permission status is Blocked
-* When I click button checkin
-
-<figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
 
 * Then I can view error message Camera access is blocked
 
 <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
-## CI.F4 - Displaying a pop-up to request permission location
+
+
+## CI.F3 - Display a text "Location access is blocked"
 
 * Given I already logged in
 * And I on the page `/checkin`
 * And the location permission status is asking
 * When I click button checkin
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
-
-* Then the system displays the native browser permission prompt for the location
-
-<figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
-
-* When I click \<permission choice> on the prompt
-
-| Permission choice | Status\_Permission | Respon                        |
-| ----------------- | ------------------ | ----------------------------- |
-| Allow             | Allow              | Continue to next validation   |
-| Don't Allow       | Blocked            | location access is blocked    |
-| Dismiss           | Asking             | Re-validate permission status |
-
-*   Then the location permission status becomes Status\_Permission
-
-    * UI Status\_ Permission Blocked
-
-    <figure><img src="../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
-* UI Status Permission asking
-
-<figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
-
-## CI.F5 - Display a text "Location access is blocked"
-
-* Given I already logged in
-* And I on the page `/checkin`
-* And the location permission status is blocked
-* When I click button checkin
-
 <figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+
+* When I click Don't Allow on the prompt
+
+<figure><img src="../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure>
 
 * Then I can view notification Location access is blocked
 
 <figure><img src="../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
 
-## CI.F6 - Photo not captured. Please take a photo before continuing.
+## CI.F4 - Photo not captured. Please take a photo before continuing.
 
 * Given I already logged in
 * And I on the page `/checkin`
@@ -113,7 +64,7 @@
 
 <figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-## CI.F7 - Location not found. Make sure GPS & internet are turned on, then try again
+## CI.F5 - Location not found. Make sure GPS & internet are turned on, then try again
 
 * Given I already logged in
 * And I on the page `/checkin`
@@ -139,12 +90,19 @@
 
 * Given I already logged in
 * And I on the page `/checkin`
-* and I have granted access permission for the camera
-* and I have granted access GPS access permission
-* and my location has been detected
+* And the camera permission status is Asking
+* And the location permission status is asking
 * When I click button checkin
 
 <figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
+
+* And I click allow on the camera prompt&#x20;
+
+<figure><img src="../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
+
+* And I click allow on the location prompt&#x20;
+
+<figure><img src="../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
 
 * And I click capture
 
