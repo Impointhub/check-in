@@ -2,11 +2,11 @@
 
 ## Checkin
 
-<figure><img src="../.gitbook/assets/Checkin-Checkin .drawio (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Checkin-Checkin .drawio (9).png" alt=""><figcaption></figcaption></figure>
 
 ## Step Out
 
-<figure><img src="../.gitbook/assets/Checkin-Step out .drawio (7).png" alt=""><figcaption></figcaption></figure>
+
 
 ## Step In
 
@@ -14,7 +14,7 @@
 
 ## Checkout
 
-<figure><img src="../.gitbook/assets/Checkin-Checkout .drawio (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Checkin-Checkout .drawio (6).png" alt=""><figcaption></figcaption></figure>
 
 ## Report WH
 
