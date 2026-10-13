@@ -124,7 +124,7 @@ Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang diruba
 
 <figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
-* And I can see my check-in data with the following fields:
+* And I can see my check out data with the following fields:
 
 | Field     | Value                |
 | --------- | -------------------- |
