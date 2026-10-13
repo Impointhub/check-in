@@ -15,9 +15,9 @@
 * And the camera permission status is Asking
 * When I click button checkout
 
-<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
 
-* And I click Don't Allow on the prompt&#x20;
+* And I click Don't Allow on the prompt
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -32,7 +32,7 @@
 * And the location permission status is asking
 * When I click button checkout
 
-<figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
 
 * When I click Don't allow on the prompt
 
@@ -50,7 +50,7 @@
 * And I have check-in data for the same date as the check-out
 * When I click button checkout
 
-<figure><img src="../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
 
 * And I click submit button without take any photos
 
@@ -71,7 +71,7 @@
 * and I have check-in data for the same date as the check-out
 * When I click button checkout
 
-<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
 
 * And I click capture
 
@@ -94,13 +94,13 @@
 * And I have check-in data for the same date as the check-out
 * When I click button checkout
 
-<figure><img src="../.gitbook/assets/image (140).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
 
-* When I click Allow on the camera prompt&#x20;
+* When I click Allow on the camera prompt
 
 <figure><img src="../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
 
-* And I click Allow on the location prompt&#x20;
+* And I click Allow on the location prompt
 
 <figure><img src="../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure>
 
@@ -123,6 +123,20 @@ Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang diruba
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+
+* And I can see my check-in data with the following fields:
+
+| Field         | Value                |
+| ------------- | -------------------- |
+| Full Name     | Nur Aini             |
+| Username      | @nrainii             |
+| Location      | 429812138, 239428323 |
+| Notes         | Check-in successful  |
+| Check-in Date | 25 Jul 2026          |
+| Check-in Time | 08:00                |
+| Photo         | Captured photo       |
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * And I can see button checkin
 
