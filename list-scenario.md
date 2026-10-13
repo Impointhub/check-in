@@ -64,6 +64,6 @@
 
 ### 10. Guide
 
-* [GD.2 - Redirect to External Link](acceptance-criteria/guide.md#gd.2-redirect-to-https-app.notion.com-p-attendance-pointhub-check-in-074377eb0cf84a5d8c371af7723a1e9)
+* [GD.1 - Redirect to External Link](acceptance-criteria/guide.md#gd.2-redirect-to-https-app.notion.com-p-attendance-pointhub-check-in-074377eb0cf84a5d8c371af7723a1e9)
 
 ### <br>
