@@ -14,7 +14,7 @@
 * and I dont have stepout data
 * then I will see the Step In button disabled.
 
-<figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure>
 
 ## SI.F3 - Displaying a pop-up to request permission
 
@@ -56,7 +56,7 @@
 * and I have the step out data for the date corresponding to the step-in date.
 * When I click button step in
 
-<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
 
 * Then I can view error message "Camera access is blocked"
 
@@ -70,7 +70,7 @@
 * and I have the step out data for the date corresponding to the step-in date.
 * When I click button step in
 
-<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
 
 * Then the system displays the native browser permission prompt for the location
 
@@ -102,7 +102,7 @@
 * and I have the step out data for the date corresponding to the step-in date.
 * When I click button step in
 
-<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
 
 * Then I can view notification "Location access is blocked"
 
@@ -116,7 +116,7 @@
 * I have granted camera access permission
 * When I click button step in
 
-<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
 
 * And I click submit button without take any photos
 
@@ -137,7 +137,7 @@
 * and I have the step out data for the date corresponding to the step-in date.
 * When I click button step in
 
-<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
 
 * And I click capture
 
@@ -161,7 +161,7 @@
 * and I have the step out data for the date corresponding to the step-in date.
 * When I click button step in
 
-<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
 
 * And I click capture
 
