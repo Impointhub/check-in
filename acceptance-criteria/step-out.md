@@ -15,7 +15,7 @@
 
 <figure><img src="../.gitbook/assets/image (163).png" alt=""><figcaption></figcaption></figure>
 
-* Then I will see the step out button disable&#x20;
+* Then I will see the step out button disable
 
 <figure><img src="../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
 
@@ -27,9 +27,9 @@
 * and I have the checkin data for the date corresponding to the step out date.
 * When I click button step out
 
-<figure><img src="../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
 
-* And I click Don't Allow on the prompt&#x20;
+* And I click Don't Allow on the prompt
 
 <figure><img src="../.gitbook/assets/image (164).png" alt=""><figcaption></figcaption></figure>
 
@@ -45,9 +45,9 @@
 * and I have the check-in data for the date corresponding to the step out date.
 * When I click button step out
 
-<figure><img src="../.gitbook/assets/image (145).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
 
-* And I click Dont Allow on the prompt&#x20;
+* And I click Dont Allow on the prompt
 
 <figure><img src="../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
 
@@ -63,7 +63,7 @@
 * I have granted camera access permission
 * When I click button step out
 
-<figure><img src="../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
 
 * And I click submit button without take any photos
 
@@ -84,7 +84,7 @@
 * and I have the check-in data for the date corresponding to the step out date.
 * When I click button step out
 
-<figure><img src="../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
 
 * And I click capture
 
@@ -111,13 +111,13 @@
 * and I have the check-in data for the date corresponding to the step out date.
 * When I click button step out
 
-<figure><img src="../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
 
-* And I click Allow on the camera prompt&#x20;
+* And I click Allow on the camera prompt
 
 <figure><img src="../.gitbook/assets/image (167).png" alt=""><figcaption></figcaption></figure>
 
-* And I click Allow on the location prompt&#x20;
+* And I click Allow on the location prompt
 
 <figure><img src="../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
 
@@ -139,6 +139,18 @@
 Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang dirubah hanya tombol bawah._
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+* And I can see my step out data with the following fields
 
-* Then, the step out duration will reduce working hours.
+| Field     | Value                           |
+| --------- | ------------------------------- |
+| Full Name | Nur Aini                        |
+| Username  | @nrainii                        |
+| Location  | -7.28632.112.73491              |
+| Notes     | Ke bank untuk keperluan kantor  |
+| Date      | 25 Jul 2026                     |
+| Time      | 08:00                           |
+| Photo     | Captured photo                  |
+
+<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+
+* And, the step out duration will reduce working hours.

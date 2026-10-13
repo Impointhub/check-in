@@ -26,7 +26,7 @@
 
 <figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
 
-* And I click Don't Allow on the prompt&#x20;
+* And I click Don't Allow on the prompt
 
 <figure><img src="../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
 
@@ -42,9 +42,9 @@
 * and I have the step out data for the date corresponding to the step-in date.
 * When I click button step in
 
-<figure><img src="../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
 
-* And I click Dont allow on the prompt&#x20;
+* And I click Dont allow on the prompt
 
 <figure><img src="../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure>
 
@@ -60,7 +60,7 @@
 * I have granted camera access permission
 * When I click button step in
 
-<figure><img src="../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
 
 * And I click submit button without take any photos
 
@@ -81,7 +81,7 @@
 * and I have the step out data for the date corresponding to the step-in date.
 * When I click button step in
 
-<figure><img src="../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
 
 * And I click capture
 
@@ -104,13 +104,13 @@
 * and I have the step out data for the date corresponding to the step-in date.
 * When I click button step in
 
-<figure><img src="../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
 
-* And I click Allow on the camera prompt&#x20;
+* And I click Allow on the camera prompt
 
 <figure><img src="../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure>
 
-* And I click Allow on the location prompt&#x20;
+* And I click Allow on the location prompt
 
 <figure><img src="../.gitbook/assets/image (172).png" alt=""><figcaption></figcaption></figure>
 
@@ -132,4 +132,16 @@
 Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang dirubah hanya tombol bawah._
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+* And I can see my step in data with the following fields
+
+| Field     | Value                                       |
+| --------- | ------------------------------------------- |
+| Full Name | Nur Aini                                    |
+| Username  | @nrainii                                    |
+| Location  | -7.28632.112.73491                          |
+| Notes     | Step In dari bank untuk keperluan city car  |
+| Date      | 25 Jul 2026                                 |
+| Time      | 08:00                                       |
+| Photo     | Captured photo                              |
+
+<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>

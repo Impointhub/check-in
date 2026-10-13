@@ -126,15 +126,15 @@ Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang diruba
 
 * And I can see my check-in data with the following fields:
 
-| Field         | Value                |
-| ------------- | -------------------- |
-| Full Name     | Nur Aini             |
-| Username      | @nrainii             |
-| Location      | 429812138, 239428323 |
-| Notes         | Check-in successful  |
-| Check-in Date | 25 Jul 2026          |
-| Check-in Time | 08:00                |
-| Photo         | Captured photo       |
+| Field     | Value                |
+| --------- | -------------------- |
+| Full Name | Nur Aini             |
+| Username  | @nrainii             |
+| Location  | 429812138, 239428323 |
+| Notes     | Check-in successful  |
+| Date      | 25 Jul 2026          |
+| Time      | 08:00                |
+| Photo     | Captured photo       |
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 

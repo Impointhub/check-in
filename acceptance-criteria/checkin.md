@@ -7,8 +7,6 @@
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ## CI.F2 - Display a text "camera permission blocked"
 
 * Given I already logged in
@@ -26,8 +24,6 @@
 
 <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ## CI.F3 - Display a text "Location access is blocked"
 
 * Given I already logged in
@@ -35,7 +31,7 @@
 * And the location permission status is asking
 * When I click button checkin
 
-<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 * When I click Don't Allow on the prompt
 
@@ -52,7 +48,7 @@
 * And I have granted camera access permission
 * When I click button checkin
 
-<figure><img src="../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 * And I click submit button without take any photos
 
@@ -72,7 +68,7 @@
 * and I did not grant GPS access permission
 * When I click button checkin
 
-<figure><img src="../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 * And I click capture
 
@@ -94,13 +90,13 @@
 * And the location permission status is asking
 * When I click button checkin
 
-<figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
-* And I click allow on the camera prompt&#x20;
+* And I click allow on the camera prompt
 
 <figure><img src="../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
 
-* And I click allow on the location prompt&#x20;
+* And I click allow on the location prompt
 
 <figure><img src="../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
 
@@ -116,23 +112,23 @@
 
 <figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
-* Then I can redirect to feedpage to see checkin data&#x20;
+* Then I can redirect to feedpage to see checkin data
 
 {% hint style="info" %}
 Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang dirubah hanya tombol bawah._
 {% endhint %}
 
-* And I can see my check-in data with the following fields:&#x20;
+* And I can see my check-in data with the following fields:
 
-| Field         | Value                |
-| ------------- | -------------------- |
-| Full Name     | Nur Aini             |
-| Username      | @nrainii             |
-| Location      | 429812138, 239428323 |
-| Notes         | Check-in successful  |
-| Check-in Date | 25 Jul 2026          |
-| Check-in Time | 08:00                |
-| Photo         | Captured photo       |
+| Field     | Value                |
+| --------- | -------------------- |
+| Full Name | Nur Aini             |
+| Username  | @nrainii             |
+| Location  | 429812138, 239428323 |
+| Notes     | Absensi berhasil     |
+| Date      | 25 Jul 2026          |
+| Time      | 08:00                |
+| Photo     | Captured photo       |
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
