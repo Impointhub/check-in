@@ -16,39 +16,7 @@
 
 <figure><img src="../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure>
 
-## SI.F3 - Displaying a pop-up to request permission
-
-* Given I already logged in
-* And I on the page `/checkin`
-*
-* and I have the step out data for the date corresponding to the step-in date.
-* When I click button step in
-
-<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
-
-* Then the system displays the native browser permission prompt for the camera
-
-<figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
-
-* When I click \<Permission choice> on the prompt
-
-| Permission choice | Status\_Permission | Respon                        |
-| ----------------- | ------------------ | ----------------------------- |
-| Allow             | Allow              | Continue to next validation   |
-| Don't Allow       | Blocked            | Camera access is blocked      |
-| Dismiss           | Asking             | Re-validate permission status |
-
-*   Then the camera permission status becomes \<Status\_Permission>
-
-    * UI Status\_Permission Blocked
-
-    <figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
-
-    * UI Status\_Permission Asking
-
-    <figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
-
-## SI.F4 - Display a text "camera permission blocked
+## SI.F3 - Display a text "camera permission blocked
 
 * Given I already logged in
 * And I on the page `/checkin`
@@ -66,7 +34,7 @@
 
 <figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
-## SI.F5 - Displaying a pop-up to request permission
+## SI.F4 - Display a text "Location not detected"
 
 * Given I already logged in
 * And I on the page `/checkin`
@@ -74,45 +42,17 @@
 * and I have the step out data for the date corresponding to the step-in date.
 * When I click button step in
 
-<figure><img src="../.gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
-
-* Then the system displays the native browser permission prompt for the location
-
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-* When I click \<permission choice> on the prompt
-
-| Permission choice | Status\_Permission | Respon                        |
-| ----------------- | ------------------ | ----------------------------- |
-| Allow             | Allow              | Continue to next validation   |
-| Don't Allow       | Blocked            | Location access is blocked    |
-| Dismiss           | Asking             | Re-validate permission status |
-
-*   Then the location camera permission status becomes \<status\_permission>
-
-    * UI Status\_Permission Blocked
-
-    <figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
-
-    * UI Status\_Permission Asking
-
-    <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-## SI.F6 - Display a text "Location not detected"
-
-* Given I already logged in
-* And I on the page `/checkin`
-* And the location permission status is blocked
-* and I have the step out data for the date corresponding to the step-in date.
-* When I click button step in
-
 <figure><img src="../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
+
+* And I click Dont allow on the prompt&#x20;
+
+<figure><img src="../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure>
 
 * Then I can view notification "Location access is blocked"
 
 <figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
-## SI.F7 - Photo not captured . Please take a photo
+## SI.F5 - Photo not captured . Please take a photo
 
 * Given I already logged in
 * And I on the page `/checkin`
@@ -132,7 +72,7 @@
 
 <figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
-## SI.F8 - Location not found. Make sure GPS & internet are turned on, then try again
+## SI.F6 - Location not found. Make sure GPS & internet are turned on, then try again
 
 * Given I already logged in
 * And I on the page `/checkin`
@@ -159,13 +99,20 @@
 
 * Given I already logged in
 * And I on the page `/checkin`
-* and I have granted access permission for the camera
-* and I have granted access GPS access permission
-* and my location has been detected
+* And the camera permission status is Asking
+* And the location permission status is asking
 * and I have the step out data for the date corresponding to the step-in date.
 * When I click button step in
 
 <figure><img src="../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
+
+* And I click Allow on the camera prompt&#x20;
+
+<figure><img src="../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure>
+
+* And I click Allow on the location prompt&#x20;
+
+<figure><img src="../.gitbook/assets/image (172).png" alt=""><figcaption></figcaption></figure>
 
 * And I click capture
 
