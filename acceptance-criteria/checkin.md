@@ -134,7 +134,7 @@ Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang diruba
 | Check-in Time | 08:00                |
 | Photo         | Captured photo       |
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * And I can view button stepout, checkout, stepin in the bottom
 

@@ -74,7 +74,7 @@
 
 * Then the system displays the native browser permission prompt for the location
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * When I click \<permission choice> on the prompt
 
@@ -92,7 +92,7 @@
 
     * UI Status\_Permission Asking
 
-    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## SI.F6 - Display a text "Location not detected"
 

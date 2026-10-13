@@ -7,7 +7,7 @@
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-## CO.F2 - Displaying a pop-up to request permission camera
+## CO.F2 - Display a text "camera permission blocked"
 
 * Given I already logged in
 * And I on the page `/checkin`
@@ -15,38 +15,11 @@
 * And the camera permission status is Asking
 * When I click button checkout
 
-<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
 
-* Then the system displays the native browser permission prompt for the camera
+* And I click Don't Allow on the prompt&#x20;
 
-<figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
-
-* When I click \<permission choice> on the prompt
-
-| Permission choice | Status\_Permission | Respon                        |
-| ----------------- | ------------------ | ----------------------------- |
-| Allow             | Allow              | Continue to next validation   |
-| Don't Allow       | Blocked            | Camera access is blocked      |
-| Dismiss           | Asking             | Re-validate permission status |
-
-*   Then the camera permission status becomes \<status permission>
-
-    * UI Status\_Permission Blocked
-
-    <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
-
-    * UI Status\_Permission Asking
-
-    <figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
-
-## CO.F3 - Display a text "camera permission blocked"
-
-* Given I already logged in
-* And I on the page `/checkin`
-* And the camera permission status is Blocked
-* When I click button checkout
-
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 * Then I can view error message "Camera access is blocked"
 
@@ -63,7 +36,7 @@
 
 * Then the system displays the native browser permission prompt for the location
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * When I click \<Permission choice> on the prompt
 
@@ -81,7 +54,7 @@
 
     * UI Status\_Permission Asking
 
-    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## CO.F5 - Display a text "Location access is blocked"
 
