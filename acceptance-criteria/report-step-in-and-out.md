@@ -12,7 +12,7 @@
 * Given I on the report
 * And I on the page `/checkin`
 * And I have data step out - step in as below
-* When I click O/I
+* When I Click button I/O
 
 <figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
