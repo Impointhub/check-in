@@ -20,7 +20,7 @@
 
 * Given I already logged in
 * And I on the page `/checkin`
-* And the camera permission status is Asking
+*
 * and I have the step out data for the date corresponding to the step-in date.
 * When I click button step in
 
@@ -52,11 +52,15 @@
 
 * Given I already logged in
 * And I on the page `/checkin`
-* And the camera permission status is Blocked
+* And the camera permission status is Asking
 * and I have the step out data for the date corresponding to the step-in date.
 * When I click button step in
 
 <figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
+
+* And I click Don't Allow on the prompt&#x20;
+
+<figure><img src="../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
 
 * Then I can view error message "Camera access is blocked"
 
