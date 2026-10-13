@@ -4,7 +4,7 @@
 
 * Given I already logged in
 * And I on the page `/checkin`
-* When I click button O/I
+* When I Click button I/O
 
 <figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
@@ -28,7 +28,7 @@
 
 * Given I already logged in
 * And I on the page `/checkin`
-* When click button O/I
+* When Click button I/O
 
 <figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
