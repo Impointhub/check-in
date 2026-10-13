@@ -25,51 +25,24 @@
 
 <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
-## CO.F4 - Displaying a pop-up to request permission location
+## CO.F3 - Display a text "Location access is blocked"
 
 * Given I already logged in
 * And I on the page `/checkin`
 * And the location permission status is asking
 * When I click button checkout
 
-<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
-
-* Then the system displays the native browser permission prompt for the location
-
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-* When I click \<Permission choice> on the prompt
-
-| Permission choice | Status\_Permission | Respon                        |
-| ----------------- | ------------------ | ----------------------------- |
-| Allow             | Allow              | Continue to next validation   |
-| Don't Allow       | Blocked            | location access is blocked    |
-| Dismiss           | Asking             | Re-validate permission status |
-
-*   Then the location permission status becomes \<Status\_Permission>
-
-    * UI Status\_Permission Blocked
-
-    <figure><img src="../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
-
-    * UI Status\_Permission Asking
-
-    <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-## CO.F5 - Display a text "Location access is blocked"
-
-* Given I already logged in
-* And I on the page `/checkin`
-* And the location permission status is blocked
-* When I click button checkout
-
 <figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
+
+* When I click Don't allow on the prompt
+
+<figure><img src="../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure>
 
 * Then I can view notification "Location access is blocked"
 
 <figure><img src="../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
 
-## CO.F6 - Photo not captured. Please take a photo before continuing
+## CO.F4 - Photo not captured. Please take a photo before continuing
 
 * Given I already logged in
 * And I on the page `/checkin`
@@ -89,7 +62,7 @@
 
 <figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
-## CO.F7 - Location not found. Make sure GPS & internet are turned on, then try again
+## CO.F5 - Location not found. Make sure GPS & internet are turned on, then try again
 
 * Given I already logged in
 * And I on the page `/checkin`
@@ -116,13 +89,20 @@
 
 * Given I already logged in
 * And I on the page `/checkin`
-* and I have granted access permission for the camera
-* and I have granted access GPS access permission
-* and my location has been detected
-* and I have check-in data for the same date as the check-out
+* And the camera permission status is Asking
+* And the location permission status is asking
+* And I have check-in data for the same date as the check-out
 * When I click button checkout
 
 <figure><img src="../.gitbook/assets/image (140).png" alt=""><figcaption></figcaption></figure>
+
+* When I click Allow on the camera prompt&#x20;
+
+<figure><img src="../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
+
+* And I click Allow on the location prompt&#x20;
+
+<figure><img src="../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure>
 
 * And I click capture
 
@@ -146,4 +126,4 @@ Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang diruba
 
 * And I can see button checkin
 
-<figure><img src="../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
