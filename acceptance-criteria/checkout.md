@@ -15,7 +15,7 @@
 * And the camera permission status is Asking
 * When I click button checkout
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
 
 * Then the system displays the native browser permission prompt for the camera
 
@@ -59,7 +59,7 @@
 * And the location permission status is asking
 * When I click button checkout
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
 
 * Then the system displays the native browser permission prompt for the location
 
@@ -90,7 +90,7 @@
 * And the location permission status is blocked
 * When I click button checkout
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
 
 * Then I can view notification "Location access is blocked"
 
@@ -104,7 +104,7 @@
 * And I have check-in data for the same date as the check-out
 * When I click button checkout
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
 
 * And I click submit button without take any photos
 
@@ -125,7 +125,7 @@
 * and I have check-in data for the same date as the check-out
 * When I click button checkout
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
 
 * And I click capture
 
@@ -149,7 +149,7 @@
 * and I have check-in data for the same date as the check-out
 * When I click button checkout
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (140).png" alt=""><figcaption></figcaption></figure>
 
 * And I click capture
 

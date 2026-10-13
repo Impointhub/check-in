@@ -15,9 +15,9 @@
 
 <figure><img src="../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 
-* Then I will see the check-in button before the step out button.
+* Then I will see the step out button disable&#x20;
 
-<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
 
 ## SO.F3 - Displaying a pop-up to request permission
 
@@ -27,7 +27,7 @@
 * and I have the check-in data for the date corresponding to the step out date.
 * When I click button step out
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure>
 
 * Then the system displays the native browser permission prompt for the camera
 
@@ -59,7 +59,7 @@
 * and I have the checkin data for the date corresponding to the step out date.
 * When I click button step out
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure>
 
 * Then I can view error message "Camera access is blocked"
 
@@ -108,7 +108,7 @@
 * and I have the check-in data for the date corresponding to the step out date.
 * When I click button step out
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (145).png" alt=""><figcaption></figcaption></figure>
 
 * Then I can view notification "Location access is blocked"
 
@@ -122,7 +122,7 @@
 * I have granted camera access permission
 * When I click button step out
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
 
 * And I click submit button without take any photos
 
@@ -143,7 +143,7 @@
 * and I have the check-in data for the date corresponding to the step out date.
 * When I click button step out
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure>
 
 * And I click capture
 
@@ -171,7 +171,7 @@
 * and I have the check-in data for the date corresponding to the step out date.
 * When I click button step out
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure>
 
 * And I click capture
 

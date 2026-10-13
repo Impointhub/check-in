@@ -14,7 +14,7 @@
 * And the camera permission status is Asking
 * When I click button checkin
 
-<figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 * And the camera permission status is Asking
 
@@ -58,7 +58,7 @@
 * And the location permission status is asking
 * When I click button checkin
 
-<figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 * Then the system displays the native browser permission prompt for the location
 
@@ -88,7 +88,7 @@
 * And the location permission status is blocked
 * When I click button checkin
 
-<figure><img src="../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
 * Then I can view notification Location access is blocked
 
@@ -101,7 +101,7 @@
 * And I have granted camera access permission
 * When I click button checkin
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
 
 * And I click submit button without take any photos
 
@@ -121,7 +121,7 @@
 * and I did not grant GPS access permission
 * When I click button checkin
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
 
 * And I click capture
 
@@ -144,7 +144,7 @@
 * and my location has been detected
 * When I click button checkin
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
 
 * And I click capture
 
