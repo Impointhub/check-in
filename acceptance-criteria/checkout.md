@@ -122,8 +122,6 @@
 Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang dirubah hanya tombol bawah._
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
-
 * And I can see my check out data with the following fields:
 
 | Field     | Value                |
@@ -135,6 +133,8 @@ Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang diruba
 | Date      | 25 Jul 2026          |
 | Time      | 08:00                |
 | Photo     | Captured photo       |
+
+
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
