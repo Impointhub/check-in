@@ -29,6 +29,4 @@
 | 25/07/2026 | Siti Rahma     | Sabtu | 11:00         | 12:30        | 1.50                     | istirahat               | kembali (1,5 jam)                 |
 | 27/07/2026 | Rina Wulandari | Senin | 12:00         | 12:30        | 0.50                     | istirahat               | kembali 30 menit                  |
 
-<figure><img src="../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
