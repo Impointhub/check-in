@@ -12,9 +12,9 @@
 
 <figure><img src="../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
 
-* And I select filter column attendance date, day, employee name, ClockIn, Clock Out, gross working duration, Step out duration, net workhour"
+* And I select filter column attendance date, day, employee name, Check In, Check Out, gross working duration, Step out duration, net workhour"
 
-<figure><img src="../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
 
 * And I click export
 
