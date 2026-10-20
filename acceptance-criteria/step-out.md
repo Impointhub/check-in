@@ -148,7 +148,7 @@ Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang diruba
 | Location  | -7.28632.112.73491              |
 | Notes     | Ke bank untuk keperluan kantor  |
 | Date      | 25 Jul 2026                     |
-| Time      | 08:00                           |
+| Time      | 13:05                           |
 | Photo     | Captured photo                  |
 
 <figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>

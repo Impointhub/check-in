@@ -134,14 +134,14 @@ Note : Untuk tampilan feed absensi mengikuti tampilan app saat ini. _yang diruba
 
 * And I can see my step in data with the following fields
 
-| Field     | Value                                       |
-| --------- | ------------------------------------------- |
-| Full Name | Nur Aini                                    |
-| Username  | @nrainii                                    |
-| Location  | -7.28632.112.73491                          |
-| Notes     | Step In dari bank untuk keperluan city car  |
-| Date      | 25 Jul 2026                                 |
-| Time      | 08:00                                       |
-| Photo     | Captured photo                              |
+| Field     | Value                                     |
+| --------- | ----------------------------------------- |
+| Full Name | Nur Aini                                  |
+| Username  | @nrainii                                  |
+| Location  | -7.28632.112.73491                        |
+| Notes     | Step in dari bank untuk keperluan kantor  |
+| Date      | 25 Jul 2026                               |
+| Time      | 15:05                                     |
+| Photo     | Captured photo                            |
 
 <figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
